@@ -109,6 +109,7 @@ function handleOperatorClick(e) {
 function handleClearClick(e) {
   display.textContent = "";
   input = [];
+  currNumber = "";
 }
 
 function handleDecimalClick(e) {
