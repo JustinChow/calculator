@@ -113,6 +113,9 @@ function handleClearClick(e) {
 }
 
 function handleDecimalClick(e) {
+  if (currNumber === "" && input.length == 1) {
+    input.pop();
+  }
   if (!currNumber) {
     currNumber += "0.";
   }
